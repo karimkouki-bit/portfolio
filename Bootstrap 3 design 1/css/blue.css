@@ -1,0 +1,22 @@
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators li.active,
+.option-box .circle-check
+{
+    background: #00f;
+}
+.option-box .color-option,
+.testimonials .carousel-indicators li.active
+{
+    border: 2px solid #00f;
+}
+.about h1 span,
+.testimonials span,
+.footer h3
+{
+    color: #00f;
+}

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/default-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+   <![endif]-->
+</head>
+<body>
+<!--Start Section Tool Box-->
+<section class="option-box">
+    <div class="color-option">
+        <h4>Color option</h4>
+        <ul class="list-unstyled">
+           <li data-value="css/default-theme.css"></li>
+            <li data-value="css/yellow.css"></li>
+            <li data-value="css/blue.css"></li>
+            <li data-value="css/purple.css"></li>
+            <li data-value="css/green.css"></li>
+        </ul>
+    </div>
+    <i class="fa fa-gear fa-3x circle-check"></i>
+</section>
+<!--End Section Tool Box-->
+ <!--Start Navbar-->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" data-target="">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav row1 navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Programming</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Desktop</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Web Hosting</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Map</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav row2 navbar-nav navbar-right">
+       <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="#">Services</a></li>
+        <li class="dropdown">
+          
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+<!--End Navbar-->
+  <!--Start Carousel-->
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators hidden-xs">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/laptops.jpg" alt="...">
+      <div class="carousel-caption hidden-xs">
+        <h1 class="hidden-xs">Desktop</h1>
+        <h3 class="visible-xs">Desktop</h3>
+        <div class="lead hidden-xs">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis suscipit, distinctio saepe mollitia dolorem accusamus omnis minima ea voluptatibus animi odit consequatur ex enim beatae provident obcaecati ratione harum voluptatum.</p>
+            <div class="btn btn-primary">Read More</div>
+        </div>
+      </div>
+    </div>
+    <div class="item img">
+      <img src="images/miami.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1 class="hidden-xs">Desktop</h1>
+        <h3 class="visible-xs">Desktop</h3>
+        <div class="lead hidden-xs">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis suscipit, distinctio saepe mollitia dolorem accusamus omnis minima ea voluptatibus animi odit consequatur ex enim beatae provident obcaecati ratione harum voluptatum.</p>
+            <div class="btn btn-primary">Read More</div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/miami.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1 class="hidden-xs">Desktop</h1>
+        <h3 class="visible-xs">Desktop</h3>
+        <div class="lead hidden-xs">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis suscipit, distinctio saepe mollitia dolorem accusamus omnis minima ea voluptatibus animi odit consequatur ex enim beatae provident obcaecati ratione harum voluptatum.</p>
+            <div class="btn btn-primary">Read More</div>
+        </div>
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+  <!--End Carousel-->
+  <!--Start section about-->
+  <section class="about text-center wow bounceIn" data-wow-duration="5s">
+     <div class="container">
+      <h1 class="hidden-xs">Meet Our Template <span>Developer Tunisian</span></h1>
+         <p class="lead">Hello let me introduce our new template writed with all the love <strong>bootstrap</strong> 3.2.0</p>
+      </div>
+  </section>
+  <!--End section about-->
+  <!--Start Section Feature-->
+  <div class="feature text-center">
+      <div class="container">
+          <h1>Our Feature</h1>
+          <div class="row">
+              <div class="col-lg-3 col-md-6">
+                 <div class="feat wobble-vertical wow bounceInDown" data-wow-duration="2s" data-wow-offset="300">
+                      <i class="fas fa-wifi fa-3x"></i>
+                      <h3>Access quotes anywhere</h3>
+                          <p>                                                    Information  is securely stored in the cloud - access it from any device anywhere, using your account</p>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                 <div class="feat wobble-vertical wow bounceInDown" data-wow-duration="2s" data-wow-offset="300">
+                      <i class="fas fa-volume-up fa-3x"></i>
+                      <h3>Ok to change your mind</h3>
+                          <p>                                                    When you modify your requirements for a purchase, we automaticaly notifies the relevant suppliers</p>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                 <div class="feat wobble-vertical wow bounceInDown" data-wow-duration="2s" data-wow-offset="300">
+                      <i class="fas fa-history fa-3x"></i>
+                      <h3>Store your history</h3>
+                          <p>                                                    We keep Tracks of your interactions with suppliers, so you can easily refer to them in future</p>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-md-6" >
+                 <div class="feat wobble-vertical wow bounceInDown" data-wow-duration="2s" data-wow-offset="300">
+                      <i class="fa fa-mobile fa-3x"></i>
+                      <h3>100% Responsive</h3>
+                          <p>                                                    best examples of responsive design websites</p>
+                 </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--End Section Feature-->
+  
+  <!--Start Testimonial section-->
+  <section class="testimonials text-center wow flipInY" data-wow-duration="2s" data-wow-offset="400">
+     <div class="container">
+      <h1>What Our Client Says </h1>
+
+  <!--Start Carousel Tstimonials-->
+  <div id="carousel_testimonials" class="carousel slide" data-ride="carousel">
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem dignissimos dicta tempora nostrum quisquam labore voluptates, modi eligendi vel.</p>
+      <span>Karim</span>
+    </div>
+    <div class="item img">
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quaerat dolores, cumque facilis. Debitis aut, ex voluptatem mollitia quasi, ullam.</p>
+      <span>Skander</span>
+    </div>
+    <div class="item">
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eveniet maxime dolores omnis, dolorem veritatis distinctio id facilis eos, quam!</p>
+      <span>Azer</span>
+    </div>
+  </div>  
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel_testimonials" data-slide-to="0" class="active">
+        <img src="images/t%C3%A9l%C3%A9chargement.png" alt="">
+    </li>
+    <li data-target="#carousel_testimonials" data-slide-to="1">
+        <img src="images/avatar1.png" alt="">
+    </li>
+    <li data-target="#carousel_testimonials" data-slide-to="2">
+        <img src="images/avatar2.png" alt="">
+    </li>
+  </ol>
+</div>
+
+  <!--End Carousel Tstimonials-->
+      </div>
+    </section>
+  <!--End Testimonial section-->
+  <!--Start Section Price Table-->
+  <div class="price_table text-center">
+      <div class="container">
+          <h1>Our Amazing Price</h1>
+          <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="price_box wobble-vertical wow bounceInDown" data-wow-duration="2s">
+                     <h2 class="text-primary"> Hosting</h2>
+                     <p class="center-block">$40</p>
+                     <ul class="list-unstyled">
+                         <li>Space: 30Gb</li>
+                         <li>Email: 20</li>
+                         <li>ips: 2ip</li>
+                         <li>Database: 10</li>
+                     </ul>
+                     <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="price_box wow fadeInDown" data-wow-duration="2s" >
+                      <h2 class="text-success"> VPS</h2>
+                     <p class="center-block">$50</p>
+                     <ul class="list-unstyled">
+                         <li>Space: 50Gb</li>
+                         <li>Email: 40</li>
+                         <li>ips: 5ip</li>
+                         <li>Database: 20</li>
+                     </ul>
+                     <a href="#" class="btn btn-success">Buy Now</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                 <div class="price_box wow fadeInDown" data-wow-duration="2s">
+                       <h2 class="text-info"> Dedicated</h2>
+                     <p class="center-block">$70</p>
+                     <ul class="list-unstyled">
+                         <li>Space: 80Gb</li>
+                         <li>Email: 40</li>
+                         <li>ips: 8ip</li>
+                         <li>Database: 30</li>
+                     </ul>
+                     <a href="#" class="btn btn-info">Buy Now</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="price_box wow fadeInUp" data-wow-duration="2s">
+                      <h2 class="text-danger"> Cloud</h2>
+                     <p class="center-block">$90</p>
+                     <ul class="list-unstyled">
+                         <li>Space: 90Gb</li>
+                         <li>Email: 50</li>
+                         <li>ips: 10ip</li>
+                         <li>Database: 50</li>
+                     </ul>
+                     <a href="#" class="btn btn-danger">Buy Now</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--End Section Price Table-->
+  <!--Start Section Our Team-->
+  <section class="team text-center">
+     <div class="team1">
+      <div class="container">
+          <h1>Meet Our Team</h1>
+          <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+               <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                    <img class="img-circle" src="images/person_2.jpg" alt="">
+                    <h1>Ranim</h1>
+                    <p class="deal"> assumenda, veritatis, accusantium consequuntur quidem, tempore amet odio.</p>
+                     <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+               </div> 
+              </div>
+               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                 <div class="person wow pulse"  data-wow-duration="1s" data-wow-offset="400">
+                      <img class="img-circle" src="images/person_3.jpg" alt="">
+                      <h1>Zied</h1>
+                    <p class="deal"> assumenda, veritatis, accusantium consequuntur quidem, tempore amet odio.</p>
+                     <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                 </div>
+              </div>
+               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                      <img class="img-circle" src="images/person_5.jpg" alt="">
+                      <h1>Aymen</h1>
+                    <p class="deal">assumenda, veritatis, accusantium consequuntur quidem, tempore amet odio.</p>
+                     <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  </div>
+              </div>
+               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                      <img class="img-circle" src="images/person_6.jpg"  alt="">
+                      <h1>Ines</h1>
+                    <p class="deal">assumenda, veritatis, accusantium consequuntur quidem, tempore amet odio.</p>
+                    <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  </div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </section>
+  <!--End Section Our Team-->
+  
+      <!--Start Section Subscribe-->
+      <section class="subscribe text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="400">
+          <div class="container">
+              <h1>Keep In Touch</h1>
+              <p class="lead">
+                  SignUp For NewsLetter Dont Worry About Spam We Hate It Too
+              </p>
+              <form action="" class="form-inline">
+                  <input type="text" class="form-control input-lg" placeholder="write Your Email">
+                  <button class="btn btn-danger btn-lg"><i class="fa fa-edit fa-lg"></i>Subscribe</button>
+              </form>
+          </div>
+      </section>
+      <!--End Section Subscribe-->
+      <!--Start Section Stats-->
+      <section class="statistics text-center">
+          <div class="data">
+              <div class="container">
+                  <h1>Our Main Container</h1>
+                  <div class="row">
+                      <div class="col-md-3 col-sm-6">
+                          <div class="stats">
+                           <i class="fa fa-user fa-5x"></i>
+                           <p>9,550</p>
+                           <span>Statisfied User</span>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6">
+                          <div class="stats">
+                              <i class="fa fa-comments fa-5x"></i>
+                              <p>25,600</p>
+                              <span>Psted Comment</span>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6">
+                          <div class="stats">
+                            <i class="fa fa-suitcase fa-5x"></i>
+                            <p>10,500</p>
+                            <span>Project Done</span>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6">
+                          <div class="stat">
+                              <i class="fa fa-support fa-5x"></i>
+                              <p>7,400</p>
+                              <span>Tickets Archieved</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--End Section Stats-->
+      
+    <!--Start Section  Our Skills-->
+    <section class="skills">
+        <div class="container">
+            <h1 class="text-center">Our Skills</h1>
+            <div class="row">
+               <!--Start Progress Skill-->
+                <div class="col-md-5">
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-value-min="0" style="width: 80%">
+                                 Html5 / Css3
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-value-min="0" style="width: 80%">
+                                 PHP / SQL
+                            </div>                           
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-value-min="0" style="width: 80%">
+                                 JAVASCRIPT / JQUERY
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-value-min="0" style="width: 80%">
+                                 WORDPRESS
+                            </div>
+                        </div>
+                </div>
+                 <!--End Progress Skill-->
+                 
+                 <!--Start Team Info-->
+                 <div class="col-md-6 col-md-offset-1">
+                     <div class="skills-info">
+                         <h3>About The Team</h3>
+                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, magni.</p>
+                         <button type="button" class="btn btn-primary">Talk With Professional</button>
+                     </div>
+                 </div>
+                 <!--Start Team Info-->
+            </div>
+        </div>
+    </section>
+    <!--End Section  Our Skills-->
+    <!--Start Section Contact Us-->
+    <section class="contact-us text-center">
+        <div class="fields">
+            <div class="container">
+              <div class="row">
+               <i class="fa fa-headphones fa-5x"></i>
+                <h1>Tell Us What Your Feel</h1>
+                <p class="lead">Feel Free To contact Us Anytime</p>
+                
+<!--                Start Contact Form-->
+                    <form role="form">
+                      <div class="col-md-6">
+                       <div class="form-group">
+                           <input type="text" class="form-control input-lg" placeholder="User Name">
+                       </div>
+                        
+                      <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="Email">
+                      </div>
+                       <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+                      </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block">Contact Us</button>
+                        </div>
+                    </form>
+<!--                End Contact Form-->
+           </div>
+            </div>
+        </div>
+    </section>
+    <!--End Section Contact Us-->
+    <!--Start Section Our-client-->
+    <section class="our-clients">
+        <div class="container">
+            <div class="row">
+                <ul class="list-unstyled">
+                    <li class="col-md-2 col-xs-2"><img src="images/cnn.png" alt="" class="img-responsive"></li>
+                    <li class="col-md-2 col-xs-2"><img src="images/bbc.png" alt="" class="img-responsive"></li>
+                    <li class="col-md-2 col-xs-2"><img src="images/cnn.png" alt="" class="img-responsive"></li>
+                    <li class="col-md-2 col-xs-2"><img src="images/bbc.png" alt="" class="img-responsive"></li>
+                    <li class="col-md-2 col-xs-2"><img src="images/cnn.png" alt="" class="img-responsive"></li>
+                    <li class="col-md-2 col-xs-2"><img src="images/bbc.png" alt="" class="img-responsive"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Section Our-client-->
+    
+    <!--Start Ultimate Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled three-columns">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Company</li>
+                        <li>Code</li>
+                        <li>Design</li>
+                        <li>Host</li>
+                    </ul>
+                    <ul class="list-unstyled social-list">
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                        <li><i class="fa fa-google-plus"></i></li>
+                        <li><i class="fa fa-rss"></i></li>
+                    </ul>
+                </div>
+                 <div class="col-lg-4">
+                    <h3>Latest Articles</h3>
+                     <div class="media">
+                        <a href="#" class="pull-left">
+                         <i class="fas fa-calculator"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                Media Programming
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, perferendis!</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                         <i class="fab fa-codepen"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                              Coding
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, a.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                        <i class="fab fa-sketch"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                Web Design
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, saepe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sci">
+                        <a href="#" class="pull-left">
+                        <i class="fab fa-sketch"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                Web Design
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, saepe.</p>
+                        </div>
+                    </div>
+                 <div class="col-lg-4">
+                </div>
+                 <div class="col-lg-3">
+                </div>
+                
+            </div>
+            <div class="copryright text-center">This template made by developer tunisian</div>
+        </div>
+    </footer>
+    <!--End Ultimate Footer-->
+     
+     <section class="loading-overlay">
+        <div class="spinner">
+  <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div>
+</div>
+     </section>
+     
+     <!--start Scroll To top button-->
+     <div id="scroll-Top">
+         <i class="fas fa-chevron-up"></i>
+     </div>
+     <!--end Scroll To top button-->
+     <!--Start WOw js-->
+     <section class="wow slideInLeft"></section>
+  <section class="wow slideInRight"></section>
+     <!--End WOw js-->
+   <script src="js/jquery-1.11.1.min.js"></script>
+   <script src="https://kit.fontawesome.com/a177838891.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script> new WOW().init();</script>
+    <script src="js/main.js"></script>
+</body>
+</html>
